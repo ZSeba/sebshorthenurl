@@ -19,7 +19,7 @@ For example, "https://noomii.com/post-request" can be shortened to "https://loca
 
 This exercise involves building a very simple shorten URL App, from scratch like bit.ly.
 
-Given an URL from an external website your App should be able to generate an unique shortened URL and if the user tries to access generated URL, the application should redirect to the original website.
+Given an URL from an external website your App should be able to generate an unique shortened URL. The user also should be able to access the original website through the generated URL.
 
 Front-end should be very simple, just a input text and a button, when the user clicks the button, the page should show the shortened URL.
 
