@@ -4,6 +4,7 @@
 - The app should be using Ruby On Rails 5+ and Ruby 2+.
 - Your code will be evaluated, so try to be clear, clean and simple as possible
 - Try to do commits often, then I can have an idea of your progress during the exercise
+- Send an email to renato@noomii.com, with your repository link once you finished.
 
 
 ## Problem
