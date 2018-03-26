@@ -2,8 +2,8 @@
 
 - Fork this repository and use your own forked repository to work.
 - The app should be using Ruby On Rails 5+ and Ruby 2+.
-- Your code will be evaluated, so try to be clear, clean and simple as possible
-- Try to do commits often, then I can have an idea of your progress during the exercise
+- Your code will be evaluated, so try to be clear, clean and as simple as possible.
+- Try to do commits often, then I can have an idea of your progress during the exercise.
 - Send an email to renato@noomii.com, with your repository link once you finished.
 
 
@@ -21,7 +21,7 @@ This exercise involves building a very simple shorten URL App, from scratch like
 
 Given an URL from an external website your App should be able to generate an unique shortened URL. The user also should be able to access the original website through the generated URL.
 
-Front-end should be very simple, just a input text and a button, when the user clicks the button, the page should show the shortened URL.
+Front-end should be very simple, just an input text and a button, when the user clicks the button, the page should show the shortened URL.
 
 #### Requirements
 
