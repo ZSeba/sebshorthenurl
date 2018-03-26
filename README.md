@@ -25,7 +25,7 @@ Front-end should be very simple, just a input text and a button, when the user c
 
 #### Requirements
 
-- Do not use a gem to solve the main problem (shortening URL)
+- Do not use a gem to solve the main problem (shortening an URL)
 - Write tests with rspec for the models and controllers
 
 
