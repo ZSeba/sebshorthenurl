@@ -6,4 +6,9 @@ class UrlTest < ActiveSupport::TestCase
     url = Url.new
     assert_not url.save
   end
+
+  test "should generate shortened url after creation" do
+    url = Url.create(original_url: "www.thingy.com")
+    assert url.shortened_url.present?
+  end 
 end
