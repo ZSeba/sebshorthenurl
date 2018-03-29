@@ -6,6 +6,11 @@ class UrlsControllerTest < ActionDispatch::IntegrationTest
     # This tests if localhost:3000/batman redirects to "www.batman.com"
     test_url = urls(:one)
     get "/#{test_url.shortened_url}"
-    assert_redirected_to test_url.original_url
+    assert_redirected_to "http://#{test_url.original_url}"
+  end
+
+  test "should succesfully create a shortened url" do 
+    post "/url", params: { url: { original_url: "www.hello.com" } }, xhr: true
+    assert_equal "text/javascript", @response.content_type
   end
 end

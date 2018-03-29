@@ -1,0 +1,8 @@
+// I'll avoid using jQuery or some other library here because it's not necesary for such a small task
+var a = document.createElement('a');
+var linkText = document.createTextNode("http://localhost:3000/"+"<%= @url.shortened_url %>");
+a.appendChild(linkText);
+a.href = "<%= @url.shortened_url %>";
+var shortUrlNode = document.getElementById("shortened_url");
+shortUrlNode.innerHTML = '';
+shortUrlNode.appendChild(a);

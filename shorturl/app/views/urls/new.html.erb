@@ -1,5 +1,6 @@
-<h3>Lets shorten those URLS boiiiii</h3>
-<%= form_for @url, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+<h3>Lets shorten those URLS</h3>
+<%= form_for @url, url: {action: "create"}, html: {class: "nifty_form", remote: "true"} do |f| %>
     <%= f.text_field :original_url %>
     <%= f.submit "Generate short URL" %>
 <% end %>
+<div id="shortened_url"></div>
